@@ -19,3 +19,11 @@ I built this project to understand the fundamentals of networking, TCP/IP socket
    Open a terminal and start the server script. It will run in the background and listen for incoming connections.
    ```bash
    python chat_server.py
+
+2. **Connect a Client**: 
+   Open a new terminal window and run the client script.
+   ```bash
+     python chat_client.py
+
+3. **Chat**: 
+   Enter a nickname when prompted. To test the multi-client functionality, open a third terminal, run chat_client.py again, and chat between the two windows!
